@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(157, 189, 157);
+}
+
+#panel{
+    overflow: hidden; 
+    height: 85%;
+    width: 85%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#ptop{
+    padding: 0 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    height: 13%;
+    width: 100%;
+    background-color:  rgb(53, 88, 53);
+}
+
+#elem{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border-radius: 5px;
+    padding: 8px 14px;
+    color: green;
+    font-weight: 400;
+    font-size: 22px;
+    background-color: #fff;
+}
+
+#pbtm{
+    display:inline-flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 87%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(53, 88, 53);
+    width: 100%;
+}
+
+#bubble{
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    width: 50px;
+    background-color: rgb(86, 145, 86);
+    border-radius: 50%;
+}
+
+#bubble:hover{
+    background-color: rgb(52, 114, 52);
+}
